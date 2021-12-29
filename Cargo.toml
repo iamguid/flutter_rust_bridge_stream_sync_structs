@@ -1,0 +1,11 @@
+[package]
+name = "flutter_rust_bridge_stream_sync_structs"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+anyhow = { version = "1.0.52", features = ["backtrace"] }
+flutter_rust_bridge = "1.9.1"
